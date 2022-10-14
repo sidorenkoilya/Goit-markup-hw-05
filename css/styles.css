@@ -205,7 +205,8 @@ body {
     border-radius: 4px;
     padding: 10px 32px;
     min-height: 50px;
-
+background-color: var(--accent-color);
+color: var(--accent-bg-color);
     transition: background-color 250ms var(--cubic-bezier), color 250ms var(--cubic-bezier),
         box-shadow 250ms var(--cubic-bezier);
 }
@@ -688,7 +689,7 @@ body {
     min-height: 581px;
 
     margin-top: 141px;
-    background-color: var(--primary-bg-color);
+    background-color: var(--accent-bg-color);
 
     outline: 4px solid rgba(0, 0, 0, 0.1);
 
